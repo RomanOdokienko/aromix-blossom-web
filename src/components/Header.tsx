@@ -22,7 +22,7 @@ const Header = () => {
           </span>
         </h1>
         <p className="text-xl sm:text-2xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-          Эксклюзивные ароматы, премиальная косметика и изысканные подарки
+          Эксклюзивные ароматы, доступная косметика и изысканные подарки
         </p>
         <div className="mt-8 w-24 h-1 bg-gradient-primary mx-auto rounded-full"></div>
       </div>

@@ -18,8 +18,8 @@ const ProductGallery = () => {
     },
     {
       image: cream,
-      title: "Премиум косметика",
-      description: "Роскошные средства по уходу за кожей и декоративная косметика"
+      title: "Доступная косметика",
+      description: "Качественные средства по уходу за кожей и декоративная косметика"
     },
     {
       image: perfumeCollection,

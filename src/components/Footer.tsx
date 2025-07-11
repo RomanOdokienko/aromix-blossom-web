@@ -16,7 +16,15 @@ const Footer = () => {
             <p className="text-muted-foreground leading-relaxed">
               г. Ташкент, ул. Ислама Каримова, 17Б<br />
               Ориентир ЦУМ<br />
-              +998 90 989 02 10
+              +998 90 989 02 10<br />
+              <a 
+                href="https://yandex.ru/maps/-/CHwhUMy8" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-primary hover:text-primary-glow transition-colors underline"
+              >
+                мы на карте
+              </a>
             </p>
           </div>
 
@@ -37,8 +45,9 @@ const Footer = () => {
           {/* Brand */}
           <div className="text-center lg:text-right">
             <h3 className="font-display text-2xl font-bold mb-4">
-              <span className="bg-gradient-primary bg-clip-text text-transparent">
-                Aromix Parfume
+              <span className="text-foreground">Aromix</span>
+              <span className="bg-gradient-primary bg-clip-text text-transparent ml-1">
+                Parfume
               </span>
             </h3>
             <p className="text-muted-foreground text-sm leading-relaxed">
