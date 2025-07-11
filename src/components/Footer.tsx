@@ -14,9 +14,9 @@ const Footer = () => {
               </h3>
             </div>
             <p className="text-muted-foreground leading-relaxed">
-              г. Москва, ул. Тверская, 15<br />
-              ТЦ "Галерея", 2 этаж<br />
-              Павильон 205
+              г. Ташкент, ул. Ислама Каримова, 17Б<br />
+              Ориентир ЦУМ<br />
+              +998 90 989 02 10
             </p>
           </div>
 
@@ -29,8 +29,7 @@ const Footer = () => {
               </h3>
             </div>
             <div className="text-muted-foreground space-y-1">
-              <p>Пн-Пт: 10:00 - 21:00</p>
-              <p>Сб-Вс: 10:00 - 22:00</p>
+              <p>Пн-Вс: 10:00 - 20:00</p>
               <p className="text-sm text-primary mt-2">Без выходных</p>
             </div>
           </div>
@@ -61,7 +60,7 @@ const Footer = () => {
             </span>
           </div>
           <p className="text-xs text-muted-foreground">
-            © 2024 Aromix Parfume. Все права защищены.
+            © 2025 Aromix Parfume. Все права защищены.
           </p>
         </div>
       </div>

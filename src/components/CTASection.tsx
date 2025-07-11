@@ -4,7 +4,7 @@ import { Button } from "@/components/ui/button";
 const CTASection = () => {
   const handleTelegramClick = () => {
     // Замените на реальную ссылку на ваш Telegram
-    window.open('https://t.me/aromixparfume', '_blank');
+    window.open('https://t.me/aromix_parfum', '_blank');
   };
 
   return (
