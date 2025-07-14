@@ -17,13 +17,13 @@ const CTASection = () => {
       
       <div className="max-w-4xl mx-auto text-center relative z-10">
         <h2 className="font-display text-3xl sm:text-4xl lg:text-5xl font-semibold text-foreground mb-6">
-          Готовы найти свой 
+          Аромат, который подчеркивает 
           <span className="bg-gradient-primary bg-clip-text text-transparent ml-3">
-            идеальный аромат?
+            именно вас!
           </span>
         </h2>
         <p className="text-lg sm:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto leading-relaxed">
-          Свяжитесь с нами в Telegram для персональной консультации и подбора ароматов
+          Напишите нам — поможем найти аромат по характеру, настроению или любимому бренду
         </p>
         
         <Button 
@@ -43,21 +43,18 @@ const CTASection = () => {
           
           {/* Стильный CTA блок для визита */}
           <div className="bg-gradient-soft border-2 border-primary/30 rounded-3xl p-8 shadow-elegant hover:shadow-glow transition-all duration-300 group max-w-md animate-pulse-glow">
-            <div className="flex items-center justify-center gap-3 text-foreground mb-3">
+            <div className="flex items-center justify-center gap-3 text-foreground">
               <MapPin className="w-6 h-6 text-primary group-hover:scale-110 transition-transform duration-300" />
-              <span className="text-lg font-semibold">Или приходите к нам в{' '}</span>
               <a 
                 href="https://yandex.ru/maps/-/CHwhUMy8" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-lg font-bold text-primary hover:text-primary-glow transition-colors underline decoration-2 underline-offset-4 hover:underline-offset-2 hover:scale-105 transform duration-200"
               >
-                гости
+                Приезжайте
               </a>
+              <span className="text-lg font-semibold"> — покажем, расскажем, дадим попробовать 😊</span>
             </div>
-            <p className="text-sm text-muted-foreground text-center opacity-80 leading-relaxed">
-              Посмотрите и почувствуйте ароматы вживую
-            </p>
           </div>
         </div>
       </div>
