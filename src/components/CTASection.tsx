@@ -35,9 +35,22 @@ const CTASection = () => {
           Написать в Telegram
         </Button>
         
-        <div className="mt-8 flex justify-center items-center gap-2 text-sm text-muted-foreground">
-          <div className="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
-          <span>Отвечаем быстро и с удовольствием</span>
+        <div className="mt-8 flex flex-col items-center gap-2 text-sm text-muted-foreground">
+          <div className="flex items-center gap-2">
+            <div className="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
+            <span>Отвечаем быстро и с удовольствием</span>
+          </div>
+          <div className="text-center">
+            Или приходите к нам в{' '}
+            <a 
+              href="https://yandex.ru/maps/-/CHwhUMy8" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-primary hover:text-primary-glow transition-colors underline"
+            >
+              гости
+            </a>
+          </div>
         </div>
       </div>
     </section>
