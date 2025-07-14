@@ -42,20 +42,20 @@ const CTASection = () => {
           </div>
           
           {/* Стильный CTA блок для визита */}
-          <div className="bg-gradient-soft border border-primary/20 rounded-2xl p-6 shadow-elegant hover:shadow-glow transition-all duration-300 group max-w-sm">
-            <div className="flex items-center justify-center gap-3 text-foreground">
-              <MapPin className="w-5 h-5 text-primary group-hover:scale-110 transition-transform duration-300" />
-              <span className="font-medium">Или приходите к нам в{' '}</span>
+          <div className="bg-gradient-soft border-2 border-primary/30 rounded-3xl p-8 shadow-elegant hover:shadow-glow transition-all duration-300 group max-w-md animate-pulse-glow">
+            <div className="flex items-center justify-center gap-3 text-foreground mb-3">
+              <MapPin className="w-6 h-6 text-primary group-hover:scale-110 transition-transform duration-300" />
+              <span className="text-lg font-semibold">Или приходите к нам в{' '}</span>
               <a 
                 href="https://yandex.ru/maps/-/CHwhUMy8" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-primary hover:text-primary-glow transition-colors font-semibold underline decoration-2 underline-offset-4 hover:underline-offset-2"
+                className="text-lg font-bold text-primary hover:text-primary-glow transition-colors underline decoration-2 underline-offset-4 hover:underline-offset-2 hover:scale-105 transform duration-200"
               >
                 гости
               </a>
             </div>
-            <p className="text-xs text-muted-foreground text-center mt-2 opacity-70">
+            <p className="text-sm text-muted-foreground text-center opacity-80 leading-relaxed">
               Посмотрите и почувствуйте ароматы вживую
             </p>
           </div>
