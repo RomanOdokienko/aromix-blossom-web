@@ -41,19 +41,19 @@ const CTASection = () => {
             <span>Отвечаем быстро и с удовольствием</span>
           </div>
           
-          {/* Стильный CTA блок для визита */}
-          <div className="bg-gradient-soft border-2 border-primary/30 rounded-3xl p-8 shadow-elegant hover:shadow-glow transition-all duration-300 group max-w-md animate-pulse-glow">
+          {/* Стильная кнопка для визита */}
+          <div className="bg-gradient-soft hover:shadow-glow transition-all duration-300 ease-bounce text-lg px-8 py-6 rounded-2xl font-semibold group animate-pulse-glow border border-primary/20">
             <div className="flex items-center justify-center gap-3 text-foreground">
-              <MapPin className="w-6 h-6 text-primary group-hover:scale-110 transition-transform duration-300" />
+              <MapPin className="w-5 h-5 text-primary group-hover:translate-x-1 transition-transform duration-300" />
               <a 
                 href="https://yandex.ru/maps/-/CHwhUMy8" 
                 target="_blank" 
                 rel="noopener noreferrer"
-                className="text-lg font-bold text-primary hover:text-primary-glow transition-colors underline decoration-2 underline-offset-4 hover:underline-offset-2 hover:scale-105 transform duration-200"
+                className="text-primary hover:text-primary-glow transition-colors font-bold underline decoration-2 underline-offset-4 hover:underline-offset-2"
               >
                 Приезжайте
               </a>
-              <span className="text-lg font-semibold"> — покажем, расскажем, дадим попробовать 😊</span>
+              <span className="text-foreground"> — покажем, расскажем, дадим попробовать 😊</span>
             </div>
           </div>
         </div>
