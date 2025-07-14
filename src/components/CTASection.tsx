@@ -1,4 +1,4 @@
-import { Send, Sparkles } from "lucide-react";
+import { Send, Sparkles, MapPin } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const CTASection = () => {
@@ -35,21 +35,29 @@ const CTASection = () => {
           Написать в Telegram
         </Button>
         
-        <div className="mt-8 flex flex-col items-center gap-2 text-sm text-muted-foreground">
+        <div className="mt-8 flex flex-col items-center gap-6 text-sm text-muted-foreground">
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 bg-primary rounded-full animate-pulse"></div>
             <span>Отвечаем быстро и с удовольствием</span>
           </div>
-          <div className="text-center">
-            Или приходите к нам в{' '}
-            <a 
-              href="https://yandex.ru/maps/-/CHwhUMy8" 
-              target="_blank" 
-              rel="noopener noreferrer"
-              className="text-primary hover:text-primary-glow transition-colors underline"
-            >
-              гости
-            </a>
+          
+          {/* Стильный CTA блок для визита */}
+          <div className="bg-gradient-soft border border-primary/20 rounded-2xl p-6 shadow-elegant hover:shadow-glow transition-all duration-300 group max-w-sm">
+            <div className="flex items-center justify-center gap-3 text-foreground">
+              <MapPin className="w-5 h-5 text-primary group-hover:scale-110 transition-transform duration-300" />
+              <span className="font-medium">Или приходите к нам в{' '}</span>
+              <a 
+                href="https://yandex.ru/maps/-/CHwhUMy8" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-primary hover:text-primary-glow transition-colors font-semibold underline decoration-2 underline-offset-4 hover:underline-offset-2"
+              >
+                гости
+              </a>
+            </div>
+            <p className="text-xs text-muted-foreground text-center mt-2 opacity-70">
+              Посмотрите и почувствуйте ароматы вживую
+            </p>
           </div>
         </div>
       </div>
